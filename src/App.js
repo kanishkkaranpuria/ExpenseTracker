@@ -38,7 +38,7 @@ function App() {
     {id:1,text:'nanana',amount:-200},
     {id:2,text:'MOMO',amount:170},
     {id:3,text:'Motels',amount:-20},
-    {id:4,text:'niggarena',amount:150},
+    {id:4,text:'transact 1',amount:150},
 
   ])
 
