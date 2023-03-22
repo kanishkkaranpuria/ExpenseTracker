@@ -29,7 +29,7 @@ const NewTransaction = ({setTransactions}) => {
         <Container>
             <Typography variant="h5">New Transaction</Typography>
             
-            <TextField label="Enter Expense:" variant="outlined" onChange={(e)=>{setText(e.target.value)}} />
+            <TextField label="Enter Expense:"  variant="outlined" onChange={(e)=>{setText(e.target.value)}} />
             <TextField label="Enter Amount:" type="number" variant="outlined" onChange={(e)=>{setAmount(e.target.value)}} />
 
             <Button variant="outlined" onClick={()=>{addTransaction()}} style={{padding:15}}>Add Transaction</Button>
